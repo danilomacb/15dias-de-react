@@ -2,10 +2,11 @@ import React from 'react';
 import SquareCollab from '../SquareCollab';
 
 const SquareCollabs = qtd => {
+    let max = qtd;
     const squares = [];
 
-    for(let i = 0; i < qtd; i++) {
-        squares.push(<SquareCollab />);
+    while(max--) {
+        squares.push(<SquareCollab key={max} />);
     }
 
     return squares;
