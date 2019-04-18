@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./styles.css";
 
 class SquareCollab extends Component {
-    state = {content: ""};
+    state = {content: <br />};
     
     handleClick = () => {
         this.setState(this.state.content === "X" ? {content: "O"} : {content: "X"});
