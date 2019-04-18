@@ -16,7 +16,7 @@ const SquareCollabs = qtd => {
 };
 
 const BoardCollab = ({qtd}) => (
-    <article className="board-collab">{SquareCollabs(qtd)}</article>
+    <article className="board-collab"><SquareCollab /></article>
 );
 
 export default BoardCollab;

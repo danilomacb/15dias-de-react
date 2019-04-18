@@ -1,13 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
 
 import "./styles.css";
 
-const handleClick = () => (
-    console.log("texto")
-);
+class SquareCollab extends Component {
 
-const SquareCollab = () => (
-    <button onClick={handleClick} className="square-collab">X</button>
-);
+    constructor(props) {
+        super(props);
+        this.state = {
+            content: "X"
+        }
+    }
+    
+    handleClick = () => {
+        const newState = {content: "X"}; 
+
+        if(this.state.content === "X") {
+            newState.content = "0";
+        }
+        
+        this.setState(newState);
+    };
+    
+    render() {
+        return (
+            <button onClick={this.handleClick} className="square-collab">
+                {this.state.content}
+            </button>
+        )
+    }
+}
 
 export default SquareCollab;
