@@ -1,9 +1,5 @@
-h1 {
-    display: inline-block;
-    color: #e84393;
-}
-
-h2 {
-    display: inline-block;
-    color: #6c5ce7;
+.next-player {
+    color: #00b894;
+    font-family: sans-serif;
+    font-size: 20px;
 }

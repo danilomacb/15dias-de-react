@@ -5,8 +5,8 @@ import NextPlayer from "./components/NextPlayer";
 
 const App = () => (
     <>
-        <BoardCollab qtd="9" />
         <NextPlayer />
+        <BoardCollab qtd="9" />
     </>
 );
 
