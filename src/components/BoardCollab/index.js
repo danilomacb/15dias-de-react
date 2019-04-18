@@ -1,4 +1,7 @@
 import React from 'react';
+
+import './styles.css';
+
 import SquareCollab from '../SquareCollab';
 
 const SquareCollabs = qtd => {
@@ -13,7 +16,7 @@ const SquareCollabs = qtd => {
 };
 
 const BoardCollab = ({qtd}) => (
-    <article>{SquareCollabs(qtd)}</article>
+    <article className="board-collab">{SquareCollabs(qtd)}</article>
 );
 
 export default BoardCollab;
