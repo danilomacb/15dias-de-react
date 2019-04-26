@@ -2,10 +2,10 @@
 - Fazer um jogo da velha do tutorial do React, acompanhando a playlist 15 dias de react, do canal CollabCode.
 
 ## Linguagens:
-- React
-> Javascript
-> HTML
-> CSS
+### React
+- Javascript
+- HTML
+- CSS
 
 
 ## Como executar:
